@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const texts = [
         { text: "Welcome to", language: "en" },         // English
         { text: "Bienvenido a", language: "es" },       // Spanish
-        { text: "স্বাগতম", language: "bn" },            // Bengali
+        { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali
         { text: "स्वागत है", language: "hi" },           // Hindi
         { text: "환영합니다", language: "ko" },           // Korean
         { text: "Bienvenue à", language: "fr" },        // French
