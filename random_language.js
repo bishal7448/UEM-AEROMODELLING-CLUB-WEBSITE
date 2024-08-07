@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { text: "Bienvenido a", language: "es" },       // Spanish
         { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali
         { text: "स्वागत है", language: "hi" },           // Hindi
-        { text: "환영합니다", language: "ko" },           // Korean
         { text: "Bienvenue à", language: "fr" },        // French
         { text: "Willkommen zu", language: "de" },      // German
         { text: "Benvenuto a", language: "it" },        // Italian
@@ -12,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { text: "欢迎来到", language: "zh" },             // Chinese (Simplified)
         { text: "Bem-vindo", language: "pt" },           // Portuguese
         { text: "Добро пожаловать", language: "ru" },    // Russian
+        { text: "환영합니다", language: "ko" },           // Korean
         { text: "Welkom", language: "nl" },              // Dutch
         { text: "Tervetuloa", language: "fi" },         // Finnish
         { text: "Välkommen", language: "sv" },          // Swedish
