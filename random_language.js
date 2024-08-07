@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { text: "Willkommen zu", language: "de" },      // German
         { text: "Benvenuto a", language: "it" },        // Italian
         { text: "ようこそ", language: "ja" },             // Japanese
-        { text: "환영합니다", language: "ko" },           // Korean
         { text: "欢迎来到", language: "zh" },             // Chinese (Simplified)
         { text: "Bem-vindo", language: "pt" },           // Portuguese
         { text: "Добро пожаловать", language: "ru" },    // Russian
@@ -36,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
         fr: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         de: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         it: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
-        ja: 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん',
-        ko: '가나다라마바사아자차카타파하ㅂㅈㄷㄱ쇼ㅕㅑㅐㅔㅁㄴㅇㄹ호ㅓㅏㅣㅋㅌㅊ퓨ㅜㅡ',
+        ja: 'あいうえおかきくけこさしすせそたちつてとへほまみむめもやゆよらりるれろわをん',
+        ko: 'ㅂㅈㄷㄱ쇼ㅕㅑㅐㅔㅁㄴㅇㄹ호ㅓㅏㅣㅋㅌㅊ퓨ㅜㅡ',
         zh: '欢迎来到手田水口廿卜山戈人心日尸火土竹十大中長金金女月弓一',
         pt: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         ru: 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ',
@@ -94,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
         currentIndex = (currentIndex + 1) % texts.length;
 
         blendCharacters(text, text, language, () => {
-            setTimeout(changeText, 1500); // Keep the correct word displayed for 2 seconds before changing to the next
+            setTimeout(changeText, 1000); // Keep the correct word displayed for 1 seconds before changing to the next
         });
     }
 
