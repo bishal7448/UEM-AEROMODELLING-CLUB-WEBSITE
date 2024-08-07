@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
         { text: "欢迎来到", language: "zh" },             // Chinese (Simplified)
         { text: "Bem-vindo", language: "pt" },           // Portuguese
         { text: "Добро пожаловать", language: "ru" },    // Russian
-        { text: "स्वागत है", language: "hi" },           // Hindi
         { text: "Welkom", language: "nl" },              // Dutch
         { text: "Tervetuloa", language: "fi" },         // Finnish
         { text: "Välkommen", language: "sv" },          // Swedish
