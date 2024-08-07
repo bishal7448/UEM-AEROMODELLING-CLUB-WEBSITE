@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         it: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         ja: 'あいうえおかきくけこさしすせそたちつてとへほまみむめもやゆよらりるれろわをん',
         ko: 'ㅂㅈㄷㄱ쇼ㅕㅑㅐㅔㅁㄴㅇㄹ호ㅓㅏㅣㅋㅌㅊ퓨ㅜㅡ',
-        zh: '欢迎来到手田水口廿卜山戈人心日尸火土竹十大中長金金女月弓一',
+        zh: '口廿卜山戈人心日尸火土竹十大中長金金女月弓一',
         pt: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         ru: 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ',
         hi: 'अआइईउऊऋएऐओऔकखगघचछजझटठडढणतथदधनपफबभमयरलवशषसहज्ञक्षश्र ',
