@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { text: "Välkommen", language: "sv" },          // Swedish
         { text: "Benvingut", language: "ca" },          // Catalan
         { text: "Velkommen", language: "da" },         // Danish
-        { text: "স্বাগতম", language: "bn" },            // Bengali
+        { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali
         { text: "Dobrodošli", language: "hr" },         // Croatian
         { text: "Добро пожаловать", language: "ru" }    // Russian (Repeated)
     ];
@@ -38,10 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
         de: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         it: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         ja: 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん',
-        ko: '가나다라마바사아자차카타파하',
-        zh: '欢迎来到',
+        ko: '가나다라마바사아자차카타파하ㅂㅈㄷㄱ쇼ㅕㅑㅐㅔㅁㄴㅇㄹ호ㅓㅏㅣㅋㅌㅊ퓨ㅜㅡ',
+        zh: '欢迎来到手田水口廿卜山戈人心日尸火土竹十大中長金金女月弓一',
         pt: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
-        ru: 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯabcdefghijklmnopqrstuvwxyz ',
+        ru: 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ',
         hi: 'अआइईउऊऋएऐओऔकखगघचछजझटठडढणतथदधनपफबभमयरलवशषसहज्ञक्षश्र ',
         bn: 'অআইঈউঊএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহড়ঢ়য়ৎঋ ',
         nl: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
