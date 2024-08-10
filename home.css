@@ -22,7 +22,7 @@ header{
 header a{
     color: #eee;
     margin-right: 40px;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 /* carousel */
 .carousel{
@@ -57,7 +57,7 @@ header a{
 }
 .carousel .list .item .author{
     font-size: 3.8em;
-    font-weight: bold;
+    font-weight: 750;
     text-transform: capitalize;
     line-height: 1.3em;
     color:  #dbf1e6; 
@@ -65,7 +65,7 @@ header a{
 .carousel .list .item .title,
 .carousel .list .item .topic{
     font-size: 3.2em;
-    font-weight: bold;
+    font-weight: 750;
     text-transform: capitalize;
     line-height: 1.3em;
 }
@@ -79,8 +79,8 @@ header a{
 
 .carousel .list .item .des{
     font-size: 1.6em;
-    font-weight: 650;
-    color: #d2d2ea;
+    font-weight: 750;
+    color: #ffffff;
 }
 
 .carousel .list .item .buttons{
