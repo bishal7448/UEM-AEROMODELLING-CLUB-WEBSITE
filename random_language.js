@@ -1,23 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
     const texts = [
         { text: "Welcome to", language: "en" },         // English
-        { text: "Bienvenido a", language: "es" },       // Spanish
         { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali
         { text: "स्वागत है", language: "hi" },           // Hindi
+        { text: "Bienvenido a", language: "es" },       // Spanish
         { text: "Bienvenue à", language: "fr" },        // French
         { text: "Willkommen zu", language: "de" },      // German
         { text: "Benvenuto a", language: "it" },        // Italian
-        { text: "ようこそ", language: "ja" },             // Japanese
-        { text: "欢迎来到", language: "zh" },             // Chinese (Simplified)
         { text: "Bem-vindo", language: "pt" },           // Portuguese
         { text: "Добро пожаловать", language: "ru" },    // Russian
-        { text: "환영합니다", language: "ko" },           // Korean
         { text: "Welkom", language: "nl" },              // Dutch
+        // { text: "환영합니다", language: "ko" },           // Korean
         { text: "Tervetuloa", language: "fi" },         // Finnish
         { text: "Välkommen", language: "sv" },          // Swedish
+        // { text: "欢迎来到", language: "zh" },             // Chinese (Simplified)
         { text: "Benvingut", language: "ca" },          // Catalan
         { text: "Velkommen", language: "da" },         // Danish
-        { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali
+        // { text: "ようこそ", language: "ja" },             // Japanese
+        // { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali
         { text: "Dobrodošli", language: "hr" },         // Croatian
         { text: "Добро пожаловать", language: "ru" }    // Russian (Repeated)
     ];
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         it: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         ja: 'あいうえおかきくけこさしすせそたちつてとへほまみむめもやゆよらりるれろわをん',
         ko: 'ㅂㅈㄷㄱ쇼ㅕㅑㅐㅔㅁㄴㅇㄹ호ㅓㅏㅣㅋㅌㅊ퓨ㅜㅡ',
-        zh: '口廿卜山戈人心日尸火土竹十大中長金金女月弓一',
+        zh: '欢迎来到手田水口廿卜山戈人心日尸火土竹十大中長金金女月弓一',
         pt: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
         ru: 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ ',
         hi: 'अआइईउऊऋएऐओऔकखगघचछजझटठडढणतथदधनपफबभमयरलवशषसहज्ञक्षश्र ',
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function blendCharacters(originalText, targetText, lang, callback) {
-        const duration = 1300; // Duration of blending (1.5 seconds)
+        const duration = 1300; // Duration of blending (1.3 seconds)
         const totalSteps = 28; // Number of blending steps
         const interval = duration / totalSteps; // Interval between steps
         let steps = 0;
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 setTimeout(blendStep, interval);
             } else {
                 randomTextElement.textContent = targetText;
-                setTimeout(callback, 1500); // Wait 2 seconds before moving to the next text
+                setTimeout(callback, 1500); // Wait 1.5 seconds before moving to the next text
             }
         }
 
