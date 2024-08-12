@@ -9,6 +9,7 @@ body{
 a{
     text-decoration: none;
 }
+
 header{
     width: 1140px;
     max-width: 80%;
@@ -80,7 +81,7 @@ header a{
 .carousel .list .item .des{
     font-size: 1.6em;
     font-weight: 750;
-    color: #ffffff;
+    color: #c0d9e0;
 }
 
 .carousel .list .item .buttons{
@@ -92,7 +93,7 @@ header a{
 }
 .carousel .list .item .buttons button{
     border: none;
-    background-color: #f2cdae;
+    background-color: #efcaac;
     letter-spacing: 3px;
     font-family: Poppins;
     font-weight: 500;
@@ -101,7 +102,7 @@ header a{
     background-color: transparent;
     border: 2px solid #fff;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 800;
 }
 /* thumbail */
 .thumbnail{
