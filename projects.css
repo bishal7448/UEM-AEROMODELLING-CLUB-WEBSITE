@@ -1,105 +1,415 @@
-@import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
-@import url('https://fonts.cdnfonts.com/css/poppins');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Concert+One&family=Orbitron:wght@400..900&family=Roboto+Mono:wght@100..700&display=swap');
-
-body{
-    background-color: gainsboro;
+.desktop-1-child,
+.desktop-1-item {
+  position: absolute;
+  top: 2182px;
+  left: 330px;
+  border-radius: var(--br-41xl);
+  width: 420px;
+  height: 424px;
+}
+.desktop-1-item {
+  top: 224px;
+  left: 928px;
+  width: 298.5px;
+  height: 103px;
+}
+.a-team,
+.bring {
+  position: absolute;
+  top: 112px;
+  left: 281.1px;
+}
+.a-team {
+  top: 221px;
+  left: 472px;
+}
+.founders,
+.together {
+  position: absolute;
+  top: 331px;
+  left: 628px;
+}
+.founders {
+  top: 777px;
+  left: 703px;
+}
+.technical {
+  margin: 0;
+}
+.management-team,
+.technical-team {
+  position: absolute;
+  top: 1399px;
+  left: 134px;
+  line-height: 75.05%;
+}
+.management-team {
+  top: 2028px;
+  left: 614px;
+}
+.desktop-1-inner {
+  position: absolute;
+  top: 1932px;
+  left: 607px;
+  border-radius: var(--br-41xl);
+  width: 141px;
+  height: 146px;
+}
+.desktop-1-child1,
+.ellipse-div {
+  position: absolute;
+  top: 160px;
+  left: 596px;
+  border-radius: 50%;
+  background-color: #63c54e;
+  width: 108px;
+  height: 108px;
+}
+.desktop-1-child1 {
+  top: 266px;
+  left: 280px;
+  background-color: #f6bc0e;
+  width: 110px;
+  height: 110px;
+}
+.desktop-1-child2,
+.desktop-1-child3 {
+  position: absolute;
+  top: 376px;
+  border-radius: 50%;
+  width: 108px;
+  height: 108px;
+}
+.desktop-1-child2 {
+  left: 454px;
+  background: linear-gradient(
+    188.98deg,
+    rgba(250, 31, 188, 0.79),
+    rgba(141, 13, 215, 0.97)
+  );
+}
+.desktop-1-child3 {
+  left: 508px;
+  background-color: #89a4f8;
+}
+.desktop-1-child4,
+.rectangle-div {
+  position: absolute;
+  top: 160px;
+  border-radius: var(--br-41xl);
+  height: 108px;
+}
+.rectangle-div {
+  left: 704px;
+  background: linear-gradient(241.2deg, #a3d1ff, rgba(20, 43, 246, 0.78));
+  width: 249px;
+}
+.desktop-1-child4 {
+  left: 829px;
+  background-color: #eaeaea;
+  width: 207px;
+}
+.desktop-1-child5,
+.desktop-1-child6 {
+  backdrop-filter: blur(4.5px);
+  background-color: var(--color-whitesmoke-100);
+}
+.desktop-1-child5 {
+  position: absolute;
+  top: 293px;
+  left: 365px;
+  border-radius: var(--br-41xl);
+  border: 3px solid #a98d8d;
+  box-sizing: border-box;
+  width: 131px;
+  height: 58px;
+}
+.desktop-1-child6 {
+  top: 408px;
+  left: 487px;
+  border: 3px solid var(--color-white);
+  width: 101px;
+  height: 44px;
+}
+.desktop-1-child6,
+.desktop-1-child7,
+.desktop-1-child8 {
+  position: absolute;
+  border-radius: var(--br-41xl);
+  box-sizing: border-box;
+}
+.desktop-1-child7 {
+  top: 416px;
+  left: 535px;
+  backdrop-filter: blur(4.5px);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-white);
+  width: 46px;
+  height: 29px;
+}
+.desktop-1-child8 {
+  top: 293px;
+  left: 870px;
+  backdrop-filter: blur(20.7px);
+  background-color: rgba(234, 234, 234, 0.66);
+  border: 3px solid var(--color-gray-100);
+  width: 140px;
+  height: 58px;
+}
+.line-icon {
+  position: absolute;
+  top: 322px;
+  left: 900px;
+  max-height: 100%;
+  width: 80px;
+}
+.desktop-1-child9 {
+  top: 169px;
+  left: 838px;
+  box-shadow: 2px 7px 12.9px 2px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray-200);
+  border: 3px solid var(--color-white);
+  width: 90px;
+  height: 90px;
+}
+.desktop-1-child10,
+.desktop-1-child11,
+.desktop-1-child9 {
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.desktop-1-child10 {
+  top: 177px;
+  left: 846px;
+  background-color: var(--color-gray-200);
+  border: 3px solid rgba(134, 171, 253, 0.23);
+  width: 74px;
+  height: 74px;
+}
+.desktop-1-child11 {
+  top: 209px;
+  left: 844px;
+  box-shadow: 1px 2px 39.5px 2px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(237.96deg, rgba(134, 171, 253, 0.92), #5970f9);
+  border: 0.5px solid var(--color-white);
+  width: 6px;
+  height: 6px;
+}
+.right-arrow-icon {
+  position: absolute;
+  top: 181px;
+  left: 616px;
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+}
+.desktop-1-child12 {
+  position: absolute;
+  top: 322px;
+  left: 405px;
+  max-height: 100%;
+  width: 50px;
+}
+.vector-icon {
+  position: absolute;
+  top: 301px;
+  left: 317px;
+  border-radius: var(--br-41xl);
+  width: 150px;
+  height: 157px;
+}
+.desktop-1-child13,
+.desktop-1-child14 {
+  position: absolute;
+  box-shadow: 1px 2px 39.5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  border: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+}
+.desktop-1-child13 {
+  top: 309px;
+  left: 326px;
+  background: linear-gradient(237.96deg, rgba(134, 171, 253, 0.92), #5970f9);
+  width: 18px;
+  height: 18px;
+}
+.desktop-1-child14 {
+  top: 315px;
+  left: 932px;
+  background: linear-gradient(237.96deg, rgba(60, 250, 158, 0.92), #84f3c5);
+  width: 16px;
+  height: 16px;
+}
+.emo-icon {
+  position: absolute;
+  top: 167px;
+  left: 935px;
+  width: 94px;
+  height: 94px;
+  object-fit: cover;
+}
+.desktop-1-child15,
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20,
+.rectangle-button {
+  position: absolute;
+  box-shadow: -5px 7px 10.6px -1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-41xl);
+  background-color: var(--color-gainsboro);
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 2640px;
+  left: 737px;
+  width: 109px;
+  height: 385px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.desktop-1-child15,
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20 {
+  top: 577px;
+  left: 76px;
+  width: 170px;
+  height: 399px;
+}
+.desktop-1-child16,
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20 {
+  top: 1252px;
+  left: 841px;
+}
+.desktop-1-child17,
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20 {
+  top: 1698px;
+  left: 76px;
+}
+.desktop-1-child18,
+.desktop-1-child19,
+.desktop-1-child20 {
+  top: 624px;
+  left: 450px;
+  height: 347px;
+}
+.desktop-1-child19,
+.desktop-1-child20 {
+  top: 1299px;
+  left: 1215px;
+}
+.desktop-1-child20 {
+  top: 1745px;
+  left: 450px;
+}
+.uac-family {
+  position: absolute;
+  top: 2568px;
+  left: 787px;
+  font-size: 53px;
+  line-height: 75.05%;
+  display: inline-block;
+  width: 372px;
+  height: 52px;
+}
+.desktop-1-child21,
+.desktop-1-child22,
+.desktop-1-child23 {
+  position: absolute;
+  top: 764px;
+  left: 263px;
+  box-shadow: -5px 7px 10.6px -1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-41xl);
+  background-color: var(--color-gainsboro);
+  width: 170px;
+  height: 331px;
+}
+.desktop-1-child22,
+.desktop-1-child23 {
+  top: 1439px;
+  left: 1028px;
+}
+.desktop-1-child23 {
+  top: 1885px;
+  left: 263px;
+}
+.desktop-1-child24 {
+  top: 844px;
+  left: 620px;
+  max-height: 100%;
+  width: 92px;
+}
+.desktop-1-child24,
+.desktop-1-child25,
+.desktop-1-child26 {
+  position: absolute;
+  border-radius: var(--br-41xl);
+}
+.desktop-1-child25 {
+  top: 1095px;
+  left: 325px;
+  width: 1px;
+  height: 315px;
+  object-fit: contain;
+}
+.desktop-1-child26 {
+  top: 1488px;
+  left: 462px;
+  width: 444px;
+  height: 83px;
+}
+.desktop-1-child27 {
+  position: absolute;
+  top: 376px;
+  left: 1096px;
+  border-radius: 86px;
+  width: 126px;
+  height: 513px;
+}
+.desktop-1-child28 {
+  position: absolute;
+  top: 1770px;
+  left: 1091px;
+  border-radius: var(--br-41xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 291px;
+}
+.telephone-icon {
+  position: absolute;
+  top: 420px;
+  left: 551px;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  /* background-color: var(--color-white); */
+  height: 2889px;
+  margin-left: 65px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-106xl-8);
+  color: var(--color-gray-100);
+  font-family: var(--font-baloo-chettan);
+  background-color: transparent;
 }
 
-.banner {
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-}
-
-.banner .slider {
-    position: absolute;
-    height: 14em;
-    width: 10.5em;
-    top: 10%;
-    left: calc(50% - 100px);
-    transform-style: preserve-3d;
-    transform: perspective(65em);
-    animation: autoRotate 30s linear infinite;
-    z-index: 2;
-}
-
-@keyframes autoRotate {
-    from {
-        transform: perspective(65em) rotateX(-12deg) rotateY(0deg);
-    }to {
-        transform: perspective(65em) rotateX(-12deg) rotateY(360deg);
-    }
-}
-
-.banner .slider .item {
-    position: absolute;
-    inset: 0 0 0 0;
-    transform: 
-        rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-        translateZ(28em);
-}
-
-.banner .slider .item img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.banner .content{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 100vw);
-    height: max-content;
-    padding-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-}
-
-.banner .content h1{
-    font-family: "Concert One";
-    font-size: 4.2em;
-    font-weight: 700;
-    line-height: 0.95em;
-    color: #000000;
-    position: relative;
-}
-
-.banner .content h1::after{
-    position: absolute;
-    inset: 0 0 0 0;
-    content: attr(data-content);
-    z-index: 2;
-    -webkit-text-stroke: 0.5px #d3cfcf;
-    color: transparent;
-} 
-
-.banner .content .author{
-    font-family: "Concert One";
-    text-align: right;
-    max-width: 200px;
-}
-
-.banner .content h2{
-    font-size: 2.5em;
-} 
-
-.banner .content .model{
-    background-image: url("https://i.postimg.cc/PJzKXMST/model.png");
-    width: 100%;
-    height: 70vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-size: auto 130%;
-    background-repeat: no-repeat;
-    background-position: top center;
-    z-index: 1;
+.desktop-1-child16{
+  background-image: url("WhatsApp\ Image\ 2023-08-12\ at\ 14.29.48_78d67ff8.jpg");
+  background-size: contain;
 }
