@@ -17,14 +17,14 @@
   top: 238px;
   left: 134px;
   font-size: 60px;
-  font-weight: bold;
   line-height: 115.01%;
 }
 .welcome-to {
   top: 182px;
   font-size: 40px;
   font-weight: 800;
-  color: rgba(0, 0, 0, 0.71);
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 .we-are-uem-container {
   position: absolute;
@@ -44,6 +44,14 @@
   line-height: 129%;
   font-weight: 600;
 }
+
+.about-us,
+.contact-us,
+.home,
+.projects:hover{
+  cursor: pointer;
+}
+
 .about-us,
 .contact-us,
 .projects {
@@ -81,6 +89,12 @@
   line-height: 129%;
   font-weight: 600;
 }
+
+.login,
+.signup:hover{
+  cursor: pointer;
+}
+
 .login {
   left: 1044px;
 }
