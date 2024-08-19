@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-8xl: 27px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: rgba(0, 0, 0, 0.5);
+
+  /* Border radiuses */
+  --br-41xl: 60px;
+  --br-9xl: 28px;
+}
