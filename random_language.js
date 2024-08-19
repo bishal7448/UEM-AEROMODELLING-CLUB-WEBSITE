@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { text: "Benvingut", language: "ca" },          // Catalan
         { text: "Velkommen", language: "da" },         // Danish
         // { text: "ようこそ", language: "ja" },             // Japanese
-        // { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali (Repeated)
+        // { text: "স্বাগতম সবাইকে", language: "bn" },            // Bengali
         { text: "Dobrodošli", language: "hr" },         // Croatian
         { text: "Добро пожаловать", language: "ru" }    // Russian (Repeated)
     ];
