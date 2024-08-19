@@ -2,7 +2,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   line-height: normal;
-    background-color: #D2D2D2;
+  background-color: #ededed;
   background-image:
   repeating-linear-gradient(
       to right, transparent 0 100px,
