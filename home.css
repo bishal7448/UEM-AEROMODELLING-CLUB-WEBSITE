@@ -1,3 +1,36 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  line-height: normal;
+  background-color: #ededed;
+  background-image:
+  repeating-linear-gradient(
+      to right, transparent 0 100px,
+      #25283b22 100px 101px
+  ),
+  repeating-linear-gradient(
+      to bottom, transparent 0 100px,
+      #25283b22 100px 101px
+  );
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-8xl: 27px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: rgba(0, 0, 0, 0.5);
+
+  /* Border radiuses */
+  --br-41xl: 60px;
+  --br-9xl: 28px;
+}
+
 .desktop-1-child {
   position: absolute;
   top: 419px;
@@ -118,6 +151,14 @@
   font-size: 25px;
   line-height: 143%;
   color: var(--color-white);
+}
+.subscriber {
+  top: 675px;
+  left: 164px;
+  font-size: 25px;
+  line-height: 143%;
+  color: var(--color-white);
+  text-decoration: none;
 }
 .rectangle-div {
   position: absolute;
@@ -265,6 +306,11 @@
   width: 44px;
   height: 44px;
   object-fit: cover;
+}
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon:hover{
+  cursor: pointer;
 }
 .instagram-icon,
 .linkedin-icon {
