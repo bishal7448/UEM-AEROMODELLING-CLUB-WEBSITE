@@ -67,23 +67,51 @@ body {
   line-height: 143%;
   font-weight: 500;
 }
+
 .about-us,
 .contact-us,
 .home,
 .projects {
+  /* color: #ffffff; */
   position: absolute;
   top: 46px;
   left: 134px;
   line-height: 129%;
   font-weight: 600;
+  text-decoration: none; /* Ensure no underline by default */
+  display: inline-block; /* Required for the pseudo-element positioning */
+  padding-bottom: 5px; /* Space for the underline */
 }
 
-.about-us,
-.contact-us,
-.home,
-.projects:hover{
-  cursor: pointer;
+.about-us a,
+.contact-us a,
+.home a,
+.projects a{
+  color: #000;
 }
+
+.about-us::after,
+.contact-us::after,
+.home::after,
+.projects::after {
+  content: "";
+  display: block;
+  width: 0; /* Start with zero width */
+  height: 2px; /* Underline thickness */
+  background: black; /* Underline color */
+  transition: width 0.3s ease; /* Smooth transition */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.about-us:hover::after,
+.contact-us:hover::after,
+.home:hover::after,
+.projects:hover::after {
+  width: 100%; /* Expand to full width on hover */
+}
+
 
 .about-us,
 .contact-us,
@@ -334,4 +362,93 @@ body {
   font-family: var(--font-inter);
   aspect-ratio: 3/2;
   object-fit: contain;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .desktop-1-child {
+  background-color: #fed140;
+}
+
+body.dark-mode .welcome-to,
+body.dark-mode .uem,
+body.dark-mode .uem-aeromodelling-club-container,
+body.dark-mode .we-are-uem-container {
+  color: #fff;
+}
+
+body.dark-mode .about-us,
+body.dark-mode .contact-us,
+body.dark-mode .home,
+body.dark-mode .projects {
+  color: #ffffff; /* Set the text color to white */
+}
+
+/* Ensure links are white and styled correctly in dark mode */
+body.dark-mode .about-us a,
+body.dark-mode .contact-us a,
+body.dark-mode .home a,
+body.dark-mode .projects a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none; /* Ensure no underline by default */
+}
+
+body.dark-mode .about-us a:hover,
+body.dark-mode .contact-us a:hover,
+body.dark-mode .home a:hover,
+body.dark-mode .projects a:hover {
+  text-decoration: underline; /* Underline on hover */
+  text-decoration-color: #ffffff; /* White underline color */
+}
+
+body.dark-mode .about-us::after,
+body.dark-mode .contact-us::after,
+body.dark-mode .home::after,
+body.dark-mode .projects::after {
+  background: #ffffff; /* Set the underline color to white */
+}
+
+body.dark-mode .desktop-1-item,
+body.dark-mode .desktop-1-inner {
+  background-color: #ffffff; /* White background */
+  border: 3px solid #ffffff; /* White border */
+}
+
+/* moonstars button */
+body.dark-mode .moonstars {
+  background-color: #ffffff; /* White background */
+  border: 0; /* Ensure border is removed if any */
+  border-radius: 50%;
+}
+/* we need to change moonstars element. Sun type element will match perfectly */
+
+body.dark-mode .moonstars .vector-icon,
+body.dark-mode .moonstars .vector-icon1 {
+  filter: brightness(0) invert(1); /* Invert the colors of the icons to make them visible on the white background */
+}
+
+
+body.dark-mode .rectangle-button {
+  background-color: red;
+  box-shadow: 8px 10px 16px 4px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .subscribe,
+body.dark-mode .subscriber {
+  color: #ffffff;
+}
+
+/* Other elements (adjust as necessary) */
+body.dark-mode .rectangle-div {
+  background: linear-gradient(
+    175.67deg,
+    rgba(75, 114, 255, 0.81),
+    rgba(52, 218, 207, 0.79) 42.21%,
+    rgba(46, 241, 196, 0.79) 51.54%,
+    rgba(216, 56, 237, 0.83)
+  );
 }
