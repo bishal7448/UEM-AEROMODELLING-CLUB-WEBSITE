@@ -99,3 +99,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     changeText(); // Initial call to start the process
 });
+
+document.getElementById('moonstars').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+  });
+  
