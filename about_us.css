@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
 
 body {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     line-height: normal;
-    background-color: #c9ddf8;
-    /* box-sizing: border-box; */
-    font-family: 'Poppins', sans-serif;
+    background-color: #ededed;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Sansita Swashed";
     background-image:
     repeating-linear-gradient(
         to right, transparent 0 100px,
@@ -35,6 +36,10 @@ body {
   
     /* Border radiuses */
     --br-41xl: 60px;
+}
+
+div.desktop-1{
+  margin-left: 57px;
 }
 
 .desktop-1-child,
@@ -247,7 +252,7 @@ body {
   height: 18px;
 }
 .desktop-1-child14 {
-  top: 265px;
+  top: 275px;
   left: 932px;
   background: linear-gradient(237.96deg, rgba(60, 250, 158, 0.92), #84f3c5);
   width: 16px;
@@ -275,7 +280,7 @@ body {
 }
 .telephone-icon {
   position: absolute;
-  top: 420px;
+  top: 380.4px;
   left: 551px;
   width: 20px;
   height: 20px;
@@ -316,14 +321,6 @@ body {
     align-items: center;
 }
 
-/* body{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(4.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-} */
-
 .wrapper{
     margin: 0;
     padding: 0;
@@ -340,10 +337,12 @@ body {
 
 .title h3{
     display: inline-block;
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 0px 20px;
+    margin: 10px;
     color: #111111;
-    font-size: 90px;
+    font-size: 100px;
     font-family: var(--font-baloo-chettan);
+    /* font-family: "Sansita Swashed"; */
 }
 
 .wrapper .card-container{
@@ -491,4 +490,8 @@ ul.sci{
     text-align: center;
     font-size: 15px;
     margin: 7px;
+}
+
+.uac_family{
+  font-size: 10px
 }

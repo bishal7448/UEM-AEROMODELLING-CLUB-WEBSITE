@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
 body {
+  /* page_setting */
   margin: 0;
   overflow-x: hidden;
   line-height: normal;
-  background-color: #ededed;
+
+  /* background_styling */
+  /* background-color: #ededed; */
+  background-color: #e4bee4;
   background-image:
   repeating-linear-gradient(
       to right, transparent 0 100px,
@@ -43,7 +49,9 @@ body {
 }
 .uem {
   margin: 0;
+  font-weight: 710;
 }
+
 .uem-aeromodelling-club-container,
 .welcome-to {
   position: absolute;
@@ -63,16 +71,16 @@ body {
   position: absolute;
   top: 483px;
   left: 134px;
-  font-size: 20px;
-  line-height: 143%;
+  font-size: 22px;
+  line-height: 144%;
   font-weight: 500;
+  font-family: "Sansita Swashed";
 }
 
 .about-us,
 .contact-us,
 .home,
 .projects {
-  /* color: #ffffff; */
   position: absolute;
   top: 46px;
   left: 134px;
@@ -88,6 +96,8 @@ body {
 .home a,
 .projects a{
   color: #000;
+  font-weight: 700;
+  font-size: 28px;
 }
 
 .about-us::after,
@@ -148,7 +158,7 @@ body {
   top: 46px;
   left: 1228px;
   line-height: 129%;
-  font-weight: 600;
+  font-weight: 750;
 }
 
 .login,
@@ -191,7 +201,7 @@ body {
 .rectangle-div {
   position: absolute;
   top: 164px;
-  left: 1146px;
+  left: 1150px;
   border-radius: 55px;
   background: linear-gradient(
     175.67deg,
